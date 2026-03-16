@@ -1,0 +1,14 @@
+# Java
+*.class
+
+# IDE
+.settings/
+.idea/
+.vscode/
+
+# build
+bin/
+out/
+
+# logs
+*.log
