@@ -4,7 +4,6 @@
 
 ---
 
-<p align="center">
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jugury00" style="margin-right:15px;"/>
-  <img src="http://mazandi.herokuapp.com/api?handle=jugury00&theme=warm"/>
-</p>
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=jugury00)](https://solved.ac/jugury00)
+&nbsp;&nbsp;&nbsp;
+![mazandi profile](http://mazandi.herokuapp.com/api?handle=jugury00&theme=warm)
