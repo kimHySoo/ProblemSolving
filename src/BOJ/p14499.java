@@ -1,10 +1,11 @@
+package BOJ;
+
 //https://www.acmicpc.net/problem/14499
 //gpt평가: 주사위 행렬 2개 만들지말고 6개짜리 한개가 더 관리가 좋다
 //주사위 문제는 ‘암기’가 아니라 ‘면 이동 시뮬레이션 문제’다
 import java.io.*;
 import java.util.*;
-
-public class Main {
+public class p14499 {
 	static int[] ds = {0, 0, 0, 0};
 	static int[] df = {0, 0, 0, 0};
 	static int[] dr = {0, 0, 0, -1, 1};
