@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
-public class Main {
+
+public class p32175 {
 	static int[] cup, dp;
 	static int n, h, cnt;
 	public static void main(String[] args) throws IOException{
