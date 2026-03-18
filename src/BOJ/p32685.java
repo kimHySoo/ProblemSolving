@@ -33,9 +33,8 @@ public class Main {
         int ans = 0;
         for (int i = 0; i < 3; i++) {
             int n = Integer.parseInt(br.readLine());
-            ans = (ans << 4) | n;
-        }
-
+			ans = (ans << 4) | (n & 15);
+	        }
         System.out.printf("%04d%n", ans);
     }
 }

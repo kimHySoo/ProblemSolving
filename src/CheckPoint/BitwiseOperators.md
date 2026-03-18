@@ -3,13 +3,13 @@
 ## 개요
 
 아래 Java 코드에서 사용된 핵심 개념들을 정리합니다.
+https://www.acmicpc.net/problem/32685
 
 ```java
 int ans = 0;
 for (int i = 0; i < 3; i++) {
     int n = Integer.parseInt(br.readLine());
-    ans = (ans << 4) | n;
-}
+    ans = (ans << 4) | (n & 15);}
 ```
 
 ---
