@@ -18,10 +18,10 @@ public static void main(String[] args) throws IOException{
 	int r = Integer.parseInt(st.nextToken());
 	int c = Integer.parseInt(st.nextToken());
 	int t = Integer.parseInt(st.nextToken());
-	int[][] map = new int[n][m];
-	for(int i=0;i<n;i++) {
+	int[][] map = new int[n+1][m+1];
+	for(int i=1;i<n+1;i++) {
 		st = new StringTokenizer(br.readLine());
-		for(int j=0;j<m;j++) map[i][j]=Integer.parseInt(st.nextToken());
+		for(int j=1;j<m+1;j++) map[i][j]=Integer.parseInt(st.nextToken());
 	}
 	st = new StringTokenizer(br.readLine());
 	for(int i=0;i<t;i++) {
