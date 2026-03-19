@@ -1,4 +1,6 @@
-
+package Algorithm;
+import java.io.*;
+import java.util.*;
 public class DFSBFS {
 	static List<Integer>[] map;
 	static int n;
