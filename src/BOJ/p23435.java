@@ -1,6 +1,7 @@
+package BOJ;
 import java.util.*;
 
-public class Main {
+public class p23435 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
