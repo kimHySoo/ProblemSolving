@@ -1,9 +1,10 @@
 package Algorithm;
 
-public class DPBottomUP{
+public class DPBottomUp{
     static int[] weight;
     static boolean[] dp;
     static int sum;
+    static int[][][] dim;
     //2629
     //https://www.acmicpc.net/problem/2629
     static void btu(){
@@ -24,8 +25,8 @@ public class DPBottomUP{
     //11049
     //https://www.acmicpc.net/problem/11049
     public static void main(String[] args){
-        int[][] dp;
-        int n;
+        int n=10;
+        int[][] dp = new int[n][n];
 		for(int len=1;len<n;len++) {
 			for(int i=0; i<n-len;i++) {
 				for(int j=0;j<len;j++) {

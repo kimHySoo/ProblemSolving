@@ -1,6 +1,6 @@
-package Algorighm;
-import java.util.*;
+package Algorithm;
 import java.io.*;
+import java.util.*;
 //30804
 //https://www.acmicpc.net/problem/30804
 
