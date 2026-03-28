@@ -1,5 +1,4 @@
 package Algorithm;
-import java.util.*;
 import java.io.*;
 public class FiboMatrix {
 	static int mod = 1000000007;
@@ -13,7 +12,7 @@ public class FiboMatrix {
 		System.out.println(fibo[1][0]);
 	}
 	static long[][] solve(long n){
-        if(n==0) return new long[][]{{1,0},{0,1}}; 이거 추가할것
+        if(n==0) return new long[][]{{1,0},{0,1}}; //이거 추가할것
 		if(n==1) return base;
 		long[][] half = solve(n/2);
 		long[][] result = cal(half, half);
