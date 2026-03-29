@@ -18,7 +18,7 @@ public class TrieAlgo {
 				if (cur.child[index] == null) {
 					cur.child[index] = new Node();
 				}
-				cur = cur.child[index];
+				cur = cur.child[index];	
 			}
 
 			cur.isEnd = true;
@@ -44,8 +44,21 @@ public class TrieAlgo {
 				if (cur.child[index] == null) return false;
 				cur = cur.child[index];
 			}
+			return true;	
+		}
+		boolean insert_startwith(String s) {
+			Node cur = root;
+			for(int i=0;i<s.length();i++) {
+				int index = s.charAt(i)-'0';
+				if(cur.isEnd) return false;
+				if(cur.child[index]==null) cur.child[index] = new Node();
+				cur = cur.child[index];
+			}
+			if(cur.isEnd) return false;
+			for(int i=0;i<10;i++) if(cur.child[i]!=null) return false;
+			cur.isEnd = true;
 			return true;
-}
+		}
 	}
 
 }
