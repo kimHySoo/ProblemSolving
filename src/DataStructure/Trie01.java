@@ -1,6 +1,6 @@
 package DataStructure;
 
-public class TrieAlgo {
+public class Trie01 {
     
 	static class Node {
 		Node[] child = new Node[26];
