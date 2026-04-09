@@ -1,3 +1,4 @@
+//기약 분수는 최대공약수 찾아서 계산
 package BOJ;
 import java.io.*;
 import java.util.*;
