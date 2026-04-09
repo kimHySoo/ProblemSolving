@@ -1,6 +1,6 @@
-package BOJj
-import java.util.*;
+package BOJ;
 import java.io.*;
+import java.util.*;
 
 public class p2533 {
 	static List<Integer>[] g;
