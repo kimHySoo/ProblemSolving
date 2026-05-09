@@ -8,5 +8,4 @@
 
 <p align="center">
   <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jugury00" style="margin-right:20px;"/>
-  <img src="http://mazandi.herokuapp.com/api?handle=jugury00&theme=warm"/>
 </p>
