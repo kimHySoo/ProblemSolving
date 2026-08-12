@@ -1,7 +1,7 @@
-<h1 align="center">💻 Problem Solving</h1>
+<h1 align="center">Problem Solving</h1>
 
 <p align="center">
-  꾸준한 알고리즘 학습 기록입니다 🚀
+  꾸준한 알고리즘 학습 기록입니다
 </p>
 
 <br>
